@@ -6,9 +6,20 @@
 </head>
 <body>
     <h1>My Contact Details</h1>
+
     <p>Phone</p>
     <p>+81-90-6747-9552</p>
     <p>Email</p>
     <p>hoshi.to.2018@gmail.com</p>
+
+    <form action="mailto:hoshi.to.2018@gmail.com" method="post" enctype="text/plain">
+        <label>Your name(required):</label>
+        <input type="text" name="your name" value=""><br>
+        <label>Your Email(required):</label>
+        <input type="email" name="your email" value=""><br>
+        <label>Your Message(if any):</label><br>
+        <textarea name="Your message" rows="10" cols="30"></textarea><br>
+        <input type="submit" name="">
+    </form>
 </body>
 </html>
