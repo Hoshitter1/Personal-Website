@@ -3,149 +3,152 @@
     <head>
         <meta charset="utf-8">
         <title>Hoshito's Personal Site</title>
-        <style>
-            body {
-                background-color: #ebecf1;
-            }
-            hr {
-                border-style: none;
-                border-top-style: dotted;
-                border-color: #206a5d;
-                border-width: 7px;
-                height: 0px;
-                width: 5%;
-            }
-            img {
-                height: 200px;
-            }
-        </style>
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="icon" href="favicon.ico">
+        <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@300&family=Montserrat:wght@300&family=Sacramento&display=swap" rel="stylesheet">
     </head>
 
     <body>
-        <table cellspacing="20">
-            <tr>
-                <td><img src="images/hoshito_cropped.png" alt="hoshito's profile pic"></td>
-                <td>
-                    <h1>Hoshito Furuno</h1>
-                    <p>Full Stack Engineer/Machine Learning Engineer</p>
-                    <p>I have been using Python for more than 3 years. I love adventures, surfing, and coding</p>
-                </td>
-            </tr>
-        </table>
-        <hr>
-        <h3>Work Experience</h3>
-        <table cellspacing="10">
-            <thead>
-                <tr>
-                    <th>Dates</th>
-                    <th>Work</th>
-                </tr>
-            </thead>
-            <tbody>
-                <tr>
-                    <td>04/2015-09/2017</td>
-                    <td>Technical Sales</td>
-                </tr>
-                <tr>
-                    <td>01/2019-10/2019</td>
-                    <td>Machine Learning Engineer</td>
-                </tr>
-                <tr>
-                    <td>06/2019-09/2019</td>
-                    <td>Full Stack Engineer</td>
-                </tr>
-                <tr>
-                    <td>11/2019-12/2019</td>
-                    <td>iOS Developer</td>
-                </tr>
-                <tr>
-                    <td>01/2020-04/2020</td>
-                    <td>BackEnd Developer</td>
-                </tr>
-                <tr>
-                    <td>05/2020-present</td>
-                    <td>Data Scientist</td>
-                </tr>
-            </tbody>
-        </table>
-        <hr>
-        <h3>Skills</h3>
-        <table cellspacing="10">
-            <tbody>
-                <tr>
-                    <td>
-                        <table>
-                            <tbody>
-                                <tr>
-                                    <td>Python</td>
-                                    <td>⭐⭐⭐⭐⭐</td>
-                                </tr>
-                                <tr>
-                                    <td>C++</td>
-                                    <td>⭐⭐⭐</td>
-                                </tr>
-                                <tr>
-                                    <td>HTML</td>
-                                    <td>⭐⭐⭐</td>
-                                </tr>
-                                <tr>
-                                    <td>CSS</td>
-                                    <td>⭐⭐⭐</td>
-                                </tr>
-                                <tr>
-                                    <td>React</td>
-                                    <td>⭐⭐⭐</td>
-                                </tr>
-                                <tr>
-                                    <td>SwiftUI</td>
-                                    <td>⭐⭐⭐</td>
-                                </tr>
-                            </tbody>
-                        </table>
-                    </td>
-                    <td>
-                        <table>
-                            <tbody>
-                                <tr>
-                                    <td>Machine Learning</td>
-                                    <td>⭐⭐⭐⭐⭐</td>
-                                </tr>
-                                <tr>
-                                    <td>Statistics</td>
-                                    <td>⭐⭐⭐⭐</td>
-                                </tr>
-                                <tr>
-                                    <td>BackEnd</td>
-                                    <td>⭐⭐⭐⭐</td>
-                                </tr>
-                                <tr>
-                                    <td>AWS</td>
-                                    <td>⭐⭐⭐⭐</td>
-                                </tr>
-                                <tr>
-                                    <td>FrontEnd</td>
-                                    <td>⭐⭐⭐</td>
-                                </tr>
-                                <tr>
-                                    <td>Basic Accounting</td>
-                                    <td>⭐⭐⭐⭐</td>
-                                </tr>
-                            </tbody>
-                        </table>
-                    </td>
-                </tr>
-            </tbody>
-        </table>
-    <hr>
-    <h3>Portfolio</h3>
-    <ol>
-        <li><a href="https://github.com/Hoshitter1/mickle">Mickle</a></li>
-        <li><a href="https://github.com/Hoshitter1/machine-learning-mrcnn">Object Detection</a></li>
-        <li><a href="https://github.com/Hoshitter1/drawing_app">iOS Drawing App</a></li>
-        <li><a href="https://github.com/Hoshitter1/TwitterBot">Twitter Bot</a></li>
-        <li><a href="https://github.com/Hoshitter1/Python">Deep Python</a></li>
-    </ol>
-    <a href="hobbies.html">Hobbies</a>
-    <a href="contact-me.html">Contact Me</a>
+        <div class="top-container">
+            <img class="top-cloud" src="images/cloud.png">
+            <div class="profile">
+                <img class="profile-img" src="images/hoshito_cropped.png">
+                <h1 class="profile-name">Hoshito Furuno</h1>
+                <p class="profile-title">Full Stack Engineer/Machine Learning Engineer</p>
+            </div>
+
+            <img class="bottom-cloud" src="images/cloud.png">
+            <img class="mountain" src="images/mountain.png">
+        </div>
+        <div class="middle-container">
+            <div class="skills">
+                <h2>My Skills</h2>
+                <table cellspacing="10">
+                    <tbody>
+                        <tr>
+                            <td>
+                                <table>
+                                    <tbody>
+                                        <tr>
+                                            <td>Python</td>
+                                            <td>⭐⭐⭐⭐⭐</td>
+                                        </tr>
+                                        <tr>
+                                            <td>C++</td>
+                                            <td>⭐⭐⭐</td>
+                                        </tr>
+                                        <tr>
+                                            <td>HTML</td>
+                                            <td>⭐⭐⭐</td>
+                                        </tr>
+                                        <tr>
+                                            <td>CSS</td>
+                                            <td>⭐⭐⭐</td>
+                                        </tr>
+                                        <tr>
+                                            <td>React</td>
+                                            <td>⭐⭐⭐</td>
+                                        </tr>
+                                        <tr>
+                                            <td>SwiftUI</td>
+                                            <td>⭐⭐⭐</td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </td>
+                            <td>
+                                <table>
+                                    <tbody>
+                                        <tr>
+                                            <td>Machine Learning</td>
+                                            <td>⭐⭐⭐⭐⭐</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Statistics</td>
+                                            <td>⭐⭐⭐⭐</td>
+                                        </tr>
+                                        <tr>
+                                            <td>BackEnd</td>
+                                            <td>⭐⭐⭐⭐</td>
+                                        </tr>
+                                        <tr>
+                                            <td>AWS</td>
+                                            <td>⭐⭐⭐⭐</td>
+                                        </tr>
+                                        <tr>
+                                            <td>FrontEnd</td>
+                                            <td>⭐⭐⭐</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Basic Accounting</td>
+                                            <td>⭐⭐⭐⭐</td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div class="experience">
+                <h2>Work experience</h2>
+                <table cellspacing="10">
+                    <thead>
+                        <tr>
+                            <th>Dates</th>
+                            <th>Work</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>04/2015-09/2017</td>
+                            <td>Technical Sales</td>
+                        </tr>
+                        <tr>
+                            <td>01/2019-10/2019</td>
+                            <td>Machine Learning Engineer</td>
+                        </tr>
+                        <tr>
+                            <td>06/2019-09/2019</td>
+                            <td>Full Stack Engineer</td>
+                        </tr>
+                        <tr>
+                            <td>11/2019-12/2019</td>
+                            <td>iOS Developer</td>
+                        </tr>
+                        <tr>
+                            <td>01/2020-04/2020</td>
+                            <td>BackEnd Developer</td>
+                        </tr>
+                        <tr>
+                            <td>05/2020-present</td>
+                            <td>Data Scientist</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div class="experience">
+                <h2>Portfolio</h2>
+                <ol>
+                    <li><a href="https://github.com/Hoshitter1/mickle">Mickle</a></li>
+                    <li><a href="https://github.com/Hoshitter1/machine-learning-mrcnn">Object Detection</a></li>
+                    <li><a href="https://github.com/Hoshitter1/drawing_app">iOS Drawing App</a></li>
+                    <li><a href="https://github.com/Hoshitter1/TwitterBot">Twitter Bot</a></li>
+                    <li><a href="https://github.com/Hoshitter1/Python">Deep Python</a></li>
+                </ol>
+            </div>
+            <div class="contact-me">
+                <h2>Get In Touch</h2>
+                <h3>Please feel free to contact me for a job opportunity.(change here)</h3>
+                <p>Lorem ipsum dolor sit amet, in quis, aenean amet. Phasellus sodales, tellus donec dui, ornare erat.</p>
+                <a class="myButton" href="contact-me.html">CONTACT ME</a>
+            </div>
+
+        <div class="bottom-container">
+          <a class="footer-link" href="https://www.linkedin.com/">LinkedIn</a>
+          <a class="footer-link" href="https://twitter.com/">Twitter</a>
+          <a class="footer-link" href="https://www.appbrewery.co/">Website</a>
+          <p class="copy-right">© 2020 Hoshito Furuno</p>
+        </div>
     </body>
 </html>

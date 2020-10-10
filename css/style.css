@@ -1,0 +1,136 @@
+body {
+    margin: 0;
+    background-color: #eff8fb;
+    text-align: center;
+    font-family: 'Merriweather', serif;
+}
+
+table {
+    margin: 0 auto 0 auto;
+    color: #206a5d;
+}
+
+a {
+    font-family: 'Merriweather', serif;
+    margin: 10px 20px;
+    text-decoration: none;
+}
+
+a:hover {
+  color: white;
+}
+
+p {
+    color: black;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: normal;
+}
+
+h1 {
+    color: #ff5722;
+    font-size: 5.625rem; /**16px=100%**/
+    font-family: 'Sacramento', cursive;
+}
+
+h2{
+    color: #ff5722;
+    font-family: 'Montserrat', sans-serif;
+}
+
+h3{
+    color: #ff5722;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.profile {
+    position: relative;
+    margin: 0 auto 0 auto;
+    width: 70%;
+    height: 14rem;
+}
+
+.profile-img {
+    height: 200px;
+    float: left;
+    position: relative;
+    margin-left: 100px;
+}
+
+.profile-name {
+    /*text-align: center;*/
+    position: relative;
+    margin-top: 30px;
+}
+
+.profile-title {
+    /*text-align: center;*/
+    position: relative;
+    margin-top: -60px;
+    margin-bottom: 0;
+}
+
+.top-cloud {
+    position: absolute;
+    margin-left: 20rem;
+    margin-top: -5rem;
+}
+
+.bottom-cloud {
+    position: absolute;
+    margin-top: 4rem;
+    margin-left: -10rem;
+}
+
+.mountain {
+    /*height: 370px;*/
+    position: relative;
+    margin-top: 50px;
+}
+
+.top-container {
+    background-color: white;
+    position: relative;
+    padding-top: 150px;
+}
+
+.middle-container {
+
+}
+
+.bottom-container {
+    background-color: #ff5722;
+    padding: 50px 0 20px 0;
+}
+
+.myButton {
+	box-shadow:inset 0px 1px 0px 0px #fce2c1;
+	background:linear-gradient(to bottom, #ffc477 5%, #fb9e25 100%);
+	background-color:#ffc477;
+	border-radius:6px;
+	border:1px solid #eeb44f;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:15px;
+	font-weight:bold;
+	padding:6px 24px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #cc9f52;
+}
+
+.myButton:hover {
+	background:linear-gradient(to bottom, #fb9e25 5%, #ffc477 100%);
+	background-color:#fb9e25;
+}
+
+.myButton:active {
+	position:relative;
+	top:1px;
+}
+
+.copy-right {
+    color: white;
+    font-size: 0.75rem;
+    padding: 20px 0;
+}
