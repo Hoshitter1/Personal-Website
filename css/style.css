@@ -10,25 +10,32 @@ h1, h2, h3, h4, h5, h6 {
 
 /*Heading*/
 .jumbotron {
-    background: no-repeat center right fixed url(../images/sea.jpg);
+}
+.jumbotron-extend {
+    background: url(../images/sea.jpg) fixed no-repeat center center;
+    position: relative;
+    height: 100vh;
+    min-height: 300px;
     background-size: cover;
 }
 
-/*.jumbotron .overlay {*/
-/*    background-color: #e7e7de;*/
-/*    position: absolute;*/
-/*    top: 0px;*/
-/*    bottom: 0px;*/
-/*    left: 0px;*/
-/*    right: 0px;*/
-/*    opacity: 0.2;*/
-/*    z-index: 2;*/
-/*}*/
+.jumbotron .overlay {
+    background-color: #e7e7de;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    opacity: 0.4;
+    z-index: 2;
+}
 
-.heading {
+.jumbotron .container {
+    position: relative;
+    top: 40%;
     text-align: center;
-    color: white;
-    padding: 20% 0;
+    color: #0f3057;
+    z-index: 3;
 }
 
 /*Sections*/
