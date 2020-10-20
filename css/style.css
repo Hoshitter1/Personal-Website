@@ -88,7 +88,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #contact-me .no-bullets {
-    text-align: center;
+    text-align: left;
 }
 
 .contact-icon {
@@ -98,12 +98,15 @@ h1, h2, h3, h4, h5, h6 {
 
 #contact-me a {
     color: black;
-    margin-left: 1rem;
     font-size: 14px;
 }
 
 #contact-me .no-bullets li:hover a {
     color: #e7e7de;
+}
+
+.contact-link {
+    margin-left: 1rem;
 }
 
 /*Footer*/
