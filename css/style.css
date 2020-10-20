@@ -49,16 +49,31 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 /*Profile*/
+.profile-img-container{
+    text-align: right;
+}
+
 .profile-img {
     height: 200px;
-    float: right;
     position: relative;
     margin-right: 3rem;
 }
+
 .profile-description {
-    float: left;
-    position: absolute;
-    right: 3rem;
+    text-align: left;
+    position: relative;
+}
+
+@media (max-width: 991px) {
+    .profile-img-container{
+        text-align: center;
+    }
+    .profile-img {
+        margin-right: 0;
+    }
+    .profile-description {
+        text-align: center;
+    }
 }
 
 /*Skills*/
