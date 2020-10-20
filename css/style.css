@@ -3,9 +3,15 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 /*Containers*/
-.container-fluid {
+.container-fluid-extended {
     max-width: 810px;
     padding: 10% 10%;
+}
+
+@media (max-width: 991px) {
+    .container-fluid-extended {
+        padding: 5% 0 5% 0;
+    }
 }
 
 /*Heading*/
