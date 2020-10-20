@@ -9,8 +9,6 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 /*Heading*/
-.jumbotron {
-}
 .jumbotron-extend {
     background: url(../images/sea.jpg) fixed no-repeat center center;
     position: relative;
