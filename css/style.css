@@ -102,6 +102,17 @@ h1, h2, h3, h4, h5, h6 {
     transition: all .3s;
 }
 
+/*Portfolio*/
+.portfolio {
+    position: relative;
+    text-align: center;
+}
+
+.card-extended {
+    /*width: 18rem;*/
+    margin: 1rem 0;
+}
+
 /*Contact-me*/
 #contact-me {
     background: #008891;
