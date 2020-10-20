@@ -67,23 +67,56 @@ h1, h2, h3, h4, h5, h6 {
     float: right;
 }
 
-.no-bullets li:hover {
+#skills .no-bullets li:hover {
     background: #f6f5f5;
 }
 
-.no-bullets li:hover .skill-level{
+#skills .no-bullets li:hover .skill-level{
     letter-spacing: 5px;
     transition: all .3s;
 }
 
 /*Contact-me*/
+#contact-me {
+    background: #008891;
+    color: black;
+}
+
+#contact-me .no-bullets {
+    text-align: center;
+}
+
 .contact-icon {
     font-size: 2rem;
     float: left;
 }
 
-.contact-content {
-    position: relative;
-    top: 2px;
-    left: 1px;
+#contact-me a {
+    color: black;
+    margin-left: 1rem;
+    font-size: 14px;
+}
+
+#contact-me .no-bullets li:hover a {
+    color: #e7e7de;
+}
+
+/*Footer*/
+
+.footer-container {
+    text-align: center;
+    padding: 1% 0;
+}
+
+#footer {
+    background: grey;
+    font-size: 10px;
+}
+
+#footer a {
+    color: black;
+}
+
+#footer p {
+    margin-bottom: 0;
 }
