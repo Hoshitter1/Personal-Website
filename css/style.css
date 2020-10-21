@@ -8,25 +8,6 @@ h1, h2, h3, h4, h5, h6 {
     padding: 10% 10%;
 }
 
-.container-fluid-wide-extended {
-    max-width: 810px;
-    padding: 10% 10%;
-}
-
-@media (max-width: 991px) {
-    .container-fluid-extended {
-        max-width: 810px;
-        padding: 5% 0 5% 0;
-        margin: 0 0 0 0;
-    }
-
-    .container-fluid-wide-extended {
-        max-width: 810px;
-        padding: 5% 0 5% 0;
-
-    }
-}
-
 /*Heading*/
 .jumbotron-extend {
     background: url(../images/sea.jpg) fixed no-repeat center center;
