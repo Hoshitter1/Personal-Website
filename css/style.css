@@ -2,13 +2,48 @@ h1, h2, h3, h4, h5, h6 {
     font-family: 'Merriweather', serif;
 }
 
+a {
+    font-family: 'Merriweather', serif;
+}
+
 /*Containers*/
 .container-fluid-extended {
     max-width: 810px;
     padding: 10% 10%;
 }
 
+.container-fluid-heading {
+    max-width: 100%;
+    text-align: center;
+    top: 40%;
+    left: 0;
+}
+
+.container-extended {
+    max-width: 100%;
+    margin: auto auto;
+}
+
+/*Navigation Bar*/
+
+.navbar-nav > li > a:link {
+    color: black !important;
+}
+
+.nav-item {
+    position: relative;
+    z-index: 3;
+}
+
+.navbar-nav li {
+    font-family: 'Merriweather', serif;
+    color: #0f3057;
+    font-size: 1.3rem;
+    margin-right: 3rem;
+}
+
 /*Heading*/
+
 .jumbotron-extend {
     background: url(../images/sea.jpg) fixed no-repeat center center;
     position: relative;
@@ -28,12 +63,20 @@ h1, h2, h3, h4, h5, h6 {
     z-index: 2;
 }
 
-.jumbotron .container {
+.jumbotron .container-fluid {
     position: relative;
     top: 40%;
     text-align: center;
-    color: #0f3057;
+    color: black;
     z-index: 3;
+}
+
+.jumbotron .container-fluid h1 {
+    font-size: 4rem;
+}
+
+.jumbotron .container-fluid p {
+    font-size: 2rem;
 }
 
 /*Sections*/
