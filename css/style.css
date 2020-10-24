@@ -48,8 +48,7 @@ a {
     }
 }
 
-
-#navbarNavDropdown {
+.mobile-nav {
   position: absolute;
   z-index: 2 !important;
 }
