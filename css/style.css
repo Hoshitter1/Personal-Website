@@ -25,7 +25,6 @@ a {
 }
 
 /*Navigation Bar lg*/
-
 .navbar-nav > li > a:link {
     color: black !important;
 }
@@ -43,15 +42,10 @@ a {
 }
 
 /*Navigation Bar xs*/
-.navbar .navbar-nav {
-    /*float: none;*/
-}
-
-.navbar-nav {
-    /*margin: 0;*/
-}
-.navbar-toggler-extend {
-    margin-left: 85% !important;
+@media (max-width: 576px) {
+    .navbar-toggler-extend {
+       margin-left: 85% !important;
+    }
 }
 
 
@@ -177,7 +171,7 @@ a {
     float: left;
 }
 
-@media (max-width: 991px) {
+@media (max-width: 576px) {
     .contact-icon {
         font-size: 1.8rem;
     }
