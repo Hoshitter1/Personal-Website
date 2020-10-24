@@ -49,13 +49,16 @@ a {
 }
 
 
-/*Heading*/
+#navbarNavDropdown {
+  position: absolute;
+  z-index: 2;
+}
 
+/*Heading*/
 .jumbotron-extend {
     background: url(../images/sea.jpg) fixed no-repeat center center;
     position: relative;
     height: 100vh;
-    min-height: 300px;
     background-size: cover;
 }
 
