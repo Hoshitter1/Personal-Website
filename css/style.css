@@ -49,8 +49,8 @@ a {
 }
 
 .mobile-nav {
-  position: absolute;
-  z-index: 2 !important;
+  /*position: fixed;*/
+  z-index: 999 !important;
 }
 
 /*Heading*/
