@@ -136,9 +136,10 @@ a {
 
 .skill-section {
     position: relative;
-    bottom: 3rem;
+    margin-bottom: 7%;
     text-align: center;
 }
+
 .no-bullets {
     list-style-type:none;
     margin: 0;
@@ -161,6 +162,34 @@ a {
 .fill-out-helper {
     height: 5rem;
 }
+
+/*Experiences*/
+.career-footer {
+    bottom: 5%;
+}
+
+.career-footer-icon {
+    margin-right: 0.5rem;
+}
+
+.separator {
+    margin: 0 1rem;
+}
+
+.experience-title {
+    margin-bottom: 3rem;
+}
+
+.experience-content {
+    margin-bottom: 3rem;
+}
+
+@media (max-width: 576px) {
+    .experience-title {
+        margin-bottom: 0rem;
+    }
+}
+
 /*Portfolio*/
 .portfolio {
     position: relative;
