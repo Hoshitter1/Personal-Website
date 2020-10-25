@@ -9,7 +9,7 @@ a {
 /*Containers*/
 .container-fluid-extended {
     max-width: 810px;
-    padding: 10% 10%;
+    padding: 6% 10%;
 }
 
 .container-fluid-heading {
@@ -129,6 +129,16 @@ a {
 }
 
 /*Skills*/
+#skills .container-fluid-extended {
+    max-width: 810px;
+    padding: 5% 3% 2% 5%;
+}
+
+.skill-section {
+    position: relative;
+    bottom: 3rem;
+    text-align: center;
+}
 .no-bullets {
     list-style-type:none;
     margin: 0;
@@ -148,6 +158,9 @@ a {
     transition: all .3s;
 }
 
+.fill-out-helper {
+    height: 5rem;
+}
 /*Portfolio*/
 .portfolio {
     position: relative;
@@ -156,6 +169,41 @@ a {
 
 .card-extended {
     margin: 1rem 0;
+}
+
+.card-img-top-extend {
+    padding-top: 1rem;
+}
+
+/*Endorsement*/
+#endorsement {
+    text-align: center;
+}
+
+.testimonial-image {
+    width: 10%;
+    border-radius: 100%;
+    margin: 20px;
+}
+
+.testimonial-text {
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+.endorsement-link {
+    color: #0f3057;
+}
+
+.carousel-extend {
+    padding: 7% 0;
+}
+
+@media (max-width: 576px) {
+    .testimonial-text {
+        font-size: 1rem;
+        line-height: 1.2;
+    }
 }
 
 /*Contact-me*/
