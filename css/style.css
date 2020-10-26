@@ -209,6 +209,10 @@ a {
     padding-top: 1rem;
 }
 
+.subtitle-extend {
+    font-size: 0.7rem;
+}
+
 /*Endorsement*/
 #endorsement {
     text-align: center;
