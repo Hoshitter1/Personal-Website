@@ -180,6 +180,11 @@ a {
     margin-bottom: 3rem;
 }
 
+#experience a {
+    font-family: 'Merriweather', serif;
+    color: black;
+}
+
 .experience-content {
     margin-bottom: 3rem;
 }
