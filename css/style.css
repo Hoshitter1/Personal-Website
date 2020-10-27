@@ -29,7 +29,7 @@ a {
     color: black !important;
 }
 
-#mobile-navbar .navbar-nav > li > a:link {
+.mobile-navbar .navbar-nav > li > a:link {
     color: white !important;
 }
 
