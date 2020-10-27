@@ -312,3 +312,7 @@ a {
     font-family: FontAwesome;
     content: '\f077';
 }
+
+.collapsed-extend {
+    padding: 10% 0;
+}
