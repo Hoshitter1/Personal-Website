@@ -25,7 +25,7 @@ a {
 }
 
 /*Navigation Bar lg*/
-.navbar-nav > li > a:link {
+#top .navbar-nav > li > a:link {
     color: black !important;
 }
 
