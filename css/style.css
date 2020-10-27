@@ -300,3 +300,15 @@ a {
 #footer p {
     margin-bottom: 0;
 }
+
+/*readmore*/
+.collapse-content .collapse-switch a.collapsed:after {
+    white-space: pre;
+    font-family: FontAwesome;
+    content: 'read more\A \f078';
+}
+
+.collapse-content .collapse-switch a:not(.collapsed):after {
+    font-family: FontAwesome;
+    content: '\f077';
+}
