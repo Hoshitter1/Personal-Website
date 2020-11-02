@@ -102,13 +102,13 @@ a {
 
 /*Profile*/
 .profile-img-container{
-    text-align: right;
+    text-align: center;
 }
 
 .profile-img {
     height: 12.5rem;
     position: relative;
-    margin-right: 3rem;
+    /*margin-right: 3rem;*/
 }
 
 .profile-description {
