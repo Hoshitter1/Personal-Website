@@ -14,77 +14,174 @@
         <link rel="stylesheet" href="css/style.css">
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
         <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+        <style>
+            nav {
+                position: fixed;
+                width: 100%;
+                line-height: 60px;
+                z-index: 999;
+            }
+            nav ul {
+                line-height: 60px;
+                list-style: none;
+                background: rgba(0, 0, 0, 0);
+                overflow: hidden;
+                color: #fff;
+                padding: 0;
+                text-align: right;
+                margin: 0;
+                padding-right: 40px;
+                transition: 1s;
+            }
+
+            nav.black ul {
+                background: #000;
+            }
+
+            nav ul li {
+                display: inline-block;
+                padding: 16px 40px;
+            }
+
+            nav ul li a {
+                text-decoration: none;
+                color: #fff;
+                font-size: 16px;
+            }
+
+            .menu-icon {
+                line-height: 60px;
+                width: 100%;
+                background: #000;
+                text-align: right;
+                box-sizing: border-box;
+                padding: 15px 24px;
+                cursor: pointer;
+                color: #fff;
+                display: none;
+            }
+
+            @media(max-width: 786px) {
+
+            nav ul {
+            max-height: 0px;
+            background: #000;
+            }
+
+            nav.black ul {
+            background: #000;
+            }
+
+            .showing {
+            max-height: 34em;
+            }
+
+            nav ul li {
+            box-sizing: border-box;
+            width: 100%;
+            padding: 24px;
+            text-align: center;
+            }
+
+            .menu-icon {
+            display: block;
+            }
+
+            }
+        </style>
     </head>
 
     <body style="font-family: 'Montserrat', sans-serif;">
-
+        <div class="wrapper">
+         <header>
+            <nav>
+               <div class="menu-icon">
+                  <i class="fa fa-bars fa-2x"></i>
+               </div>
+               <div class="menu">
+                  <ul>
+                     <li><a href="#">Home</a></li>
+                     <li><a href="#">About</a></li>
+                     <li><a href="#">Blog</a></li>
+                     <li><a href="#">Contact</a></li>
+                     <li><a href="#">Contact</a></li>
+                     <li><a href="#">Contact</a></li>
+                  </ul>
+               </div>
+            </nav>
+         </header>
+          </div>
         <section id="top">
             <div class="jumbotron jumbotron-extend" style="margin-bottom: 0;">
-                <div class="navbar-container">
-                    <nav class="navbar navbar-expand-lg navbar-light bg-transparent d-none d-lg-block">
-                      <button class="navbar-toggler navbar-toggler-extended" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-                        <span class="navbar-toggler-icon navbar-toggler-icon-expand"></span>
-                      </button>
-                      <div class="collapse navbar-collapse justify-content-center" id="navbarNavDropdown">
-                        <ul class="navbar-nav custom-nav">
-                            <li class="nav-item">
-                                <a class="nav-item nav-link" href="#introduction">Profile</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-item nav-link" href="#skills">Skills</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-item nav-link" href="#experience">Experience</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-item nav-link" href="#endorsement">Endorsement</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-item nav-link" href="#portfolio">Portfolio</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-item nav-link" href="#contact-me">Contact</a>
-                            </li>
-                        </ul>
-                      </div>
-                    </nav>
-                </div>
+<!--                <div class="navbar-container">-->
+<!--                    <nav class="navbar navbar-expand-lg navbar-light bg-transparent d-none d-lg-block">-->
+<!--                      <button class="navbar-toggler navbar-toggler-extended" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">-->
+<!--                        <span class="navbar-toggler-icon navbar-toggler-icon-expand"></span>-->
+<!--                      </button>-->
+<!--                      <div class="collapse navbar-collapse justify-content-center" id="navbarNavDropdown">-->
+<!--                        <ul class="navbar-nav custom-nav">-->
+<!--                            <li class="nav-item">-->
+<!--                                <a class="nav-item nav-link" href="#introduction">Profile</a>-->
+<!--                            </li>-->
+<!--                            <li class="nav-item">-->
+<!--                                <a class="nav-item nav-link" href="#skills">Skills</a>-->
+<!--                            </li>-->
+<!--                            <li class="nav-item">-->
+<!--                                <a class="nav-item nav-link" href="#experience">Experience</a>-->
+<!--                            </li>-->
+<!--                            <li class="nav-item">-->
+<!--                                <a class="nav-item nav-link" href="#endorsement">Endorsement</a>-->
+<!--                            </li>-->
+<!--                            <li class="nav-item">-->
+<!--                                <a class="nav-item nav-link" href="#portfolio">Portfolio</a>-->
+<!--                            </li>-->
+<!--                            <li class="nav-item">-->
+<!--                                <a class="nav-item nav-link" href="#contact-me">Contact</a>-->
+<!--                            </li>-->
+<!--                        </ul>-->
+<!--                      </div>-->
+<!--                    </nav>-->
+
+
+
+
                 <div class="container-fluid container-fluid-heading position-absolute">
                   <h1 class="">Hoshito Furuno</h1>
                   <p class="">Resume</p>
                 </div>
                 <div class="overlay"></div>
+<!--            </div>-->
             </div>
         </section>
 
 
-        <nav class="navbar navbar-dark bg-dark d-block d-sm-none sticky-top">
-            <button class="navbar-toggler navbar-toggler-extend" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav text-center">
-                <li class="nav-item mt-3 mb-3 mr-0">
-                  <a class="nav-link text-white" href="#introduction">Profile</a>
-                </li>
-                <li class="nav-item mb-3 mr-0">
-                    <a class="nav-link text-white" href="#skills">Skills</a>
-                </li>
-                <li class="nav-item mb-3 mr-0">
-                    <a class="nav-link text-white" href="#experience">Experience</a>
-                </li>
-                <li class="nav-item mb-3 mr-0">
-                    <a class="nav-link text-white" href="#endorsement">Endorsement</a>
-                </li>
-                <li class="nav-item mb-3 mr-0">
-                    <a class="nav-link text-white" href="#portfolio">Portfolio</a>
-                </li>
-                <li class="nav-item mb-3 mr-0">
-                    <a class="nav-link text-white" href="#contact-me">Contact</a>
-                </li>
-            </ul>
-            </div>
-        </nav>
+<!--        <nav class="navbar navbar-dark bg-dark d-block d-sm-none sticky-top">-->
+<!--            <button class="navbar-toggler navbar-toggler-extend" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">-->
+<!--            <span class="navbar-toggler-icon"></span>-->
+<!--            </button>-->
+<!--            <div class="collapse navbar-collapse" id="navbarSupportedContent">-->
+<!--            <ul class="navbar-nav text-center">-->
+<!--                <li class="nav-item mt-3 mb-3 mr-0">-->
+<!--                  <a class="nav-link text-white" href="#introduction">Profile</a>-->
+<!--                </li>-->
+<!--                <li class="nav-item mb-3 mr-0">-->
+<!--                    <a class="nav-link text-white" href="#skills">Skills</a>-->
+<!--                </li>-->
+<!--                <li class="nav-item mb-3 mr-0">-->
+<!--                    <a class="nav-link text-white" href="#experience">Experience</a>-->
+<!--                </li>-->
+<!--                <li class="nav-item mb-3 mr-0">-->
+<!--                    <a class="nav-link text-white" href="#endorsement">Endorsement</a>-->
+<!--                </li>-->
+<!--                <li class="nav-item mb-3 mr-0">-->
+<!--                    <a class="nav-link text-white" href="#portfolio">Portfolio</a>-->
+<!--                </li>-->
+<!--                <li class="nav-item mb-3 mr-0">-->
+<!--                    <a class="nav-link text-white" href="#contact-me">Contact</a>-->
+<!--                </li>-->
+<!--            </ul>-->
+<!--            </div>-->
+<!--        </nav>-->
 
 
         <section id="introduction">
@@ -119,6 +216,9 @@
                             </a><br>
                             <button type="button" class="btn btn-outline-secondary" style="margin-top: 0.5rem; margin-right:0.5rem;">
                                 #Tennis
+                            </button>
+                            <button type="button" class="btn btn-outline-secondary" style="margin-top: 0.5rem; margin-right:0.5rem;">
+                                #Games
                             </button>
                         </p>
                     </div>
@@ -1053,5 +1153,20 @@
         <!--BootStrap-->
         <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+        <script>
+          $(document).ready(function() {
+            $(".menu-icon").on("click", function() {
+              $("nav ul").toggleClass("showing");
+            });
+          });
+          $(window).on("scroll", function() {
+            if($(window).scrollTop()) {
+                  $('nav').addClass('black');
+            }
+            else {
+                  $('nav').removeClass('black');
+            }
+          })
+        </script>
     </body>
 </html>

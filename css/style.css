@@ -25,33 +25,33 @@ a {
 }
 
 /*Navigation Bar lg*/
-#top .navbar-nav > li > a:link {
-    color: black !important;
-}
+/*#top .navbar-nav > li > a:link {*/
+/*    color: black !important;*/
+/*}*/
 
-.nav-item {
-    position: relative;
-    z-index: 3;
-}
+/*.nav-item {*/
+/*    position: relative;*/
+/*    z-index: 3;*/
+/*}*/
 
-.navbar-nav li {
-    font-family: 'Merriweather', serif;
-    color: #0f3057;
-    font-size: 1.3rem;
-    margin-right: 3rem;
-}
+/*.navbar-nav li {*/
+/*    font-family: 'Merriweather', serif;*/
+/*    color: #0f3057;*/
+/*    font-size: 1.3rem;*/
+/*    margin-right: 3rem;*/
+/*}*/
 
-/*Navigation Bar xs*/
-@media (max-width: 576px) {
-    .navbar-toggler-extend {
-       margin-left: 85% !important;
-    }
-}
+/*!*Navigation Bar xs*!*/
+/*@media (max-width: 576px) {*/
+/*    .navbar-toggler-extend {*/
+/*       margin-left: 85% !important;*/
+/*    }*/
+/*}*/
 
-.mobile-nav {
-  /*position: fixed;*/
-  z-index: 999 !important;
-}
+/*.mobile-nav {*/
+/*  !*position: fixed;*!*/
+/*  z-index: 999 !important;*/
+/*}*/
 
 /*Heading*/
 .jumbotron-extend {
@@ -316,3 +316,4 @@ a {
 .collapsed-extend {
     padding: 10% 0;
 }
+
