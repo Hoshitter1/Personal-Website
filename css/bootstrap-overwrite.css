@@ -48,12 +48,19 @@ nav.white ul li a {
 
 @media(max-width: 576px) {
     nav ul {
-        max-height: 0px;
+        padding-left: 0;
+        max-height: 0;
         background: #000;
+        color: #fff;
+    }
+
+    nav ul li a {
+        color: #fff;
     }
 
     nav.black ul {
         background: #000;
+        color: #fff;
     }
 
     .showing {
