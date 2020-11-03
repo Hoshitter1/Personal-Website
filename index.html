@@ -14,81 +14,7 @@
         <link rel="stylesheet" href="css/style.css">
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
         <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-        <style>
-            nav {
-                position: fixed;
-                width: 100%;
-                line-height: 60px;
-                z-index: 999;
-            }
-            nav ul {
-                line-height: 60px;
-                list-style: none;
-                background: rgba(0, 0, 0, 0);
-                overflow: hidden;
-                color: #fff;
-                padding: 0;
-                text-align: right;
-                margin: 0;
-                padding-right: 40px;
-                transition: 1s;
-            }
-
-            nav.black ul {
-                background: #000;
-            }
-
-            nav ul li {
-                display: inline-block;
-                padding: 16px 40px;
-            }
-
-            nav ul li a {
-                text-decoration: none;
-                color: #fff;
-                font-size: 16px;
-            }
-
-            .menu-icon {
-                line-height: 60px;
-                width: 100%;
-                background: #000;
-                text-align: right;
-                box-sizing: border-box;
-                padding: 15px 24px;
-                cursor: pointer;
-                color: #fff;
-                display: none;
-            }
-
-            @media(max-width: 786px) {
-
-            nav ul {
-            max-height: 0px;
-            background: #000;
-            }
-
-            nav.black ul {
-            background: #000;
-            }
-
-            .showing {
-            max-height: 34em;
-            }
-
-            nav ul li {
-            box-sizing: border-box;
-            width: 100%;
-            padding: 24px;
-            text-align: center;
-            }
-
-            .menu-icon {
-            display: block;
-            }
-
-            }
-        </style>
+        <link rel="stylesheet" href="css/bootstrap-overwrite.css">
     </head>
 
     <body style="font-family: 'Montserrat', sans-serif;">
@@ -1153,27 +1079,7 @@
         <!--BootStrap-->
         <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
-        <script>
-          $(document).ready(function() {
-            $(".menu-icon").on("click", function() {
-              $("nav ul").toggleClass("showing");
-            });
-          });
-          $(window).on("scroll", function() {
-            if($(window).scrollTop()) {
-                  $('nav').addClass('black');
-            }
-            else {
-                  $('nav').removeClass('black');
-            }
-          });
-
-          $(document).ready(function() {
-            $('nav li a').on('click', function(){
-              $("nav ul").toggleClass("showing");
-            });
-          });
-
-        </script>
+        <!--Navbar-->
+        <script src="js/navbar.js"></script>
     </body>
 </html>
