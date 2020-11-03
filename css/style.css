@@ -288,3 +288,22 @@ a {
     padding: 10% 0;
 }
 
+/*Particle*/
+
+canvas{
+    display: block; vertical-align: bottom;
+}
+
+#particles-js{
+    position:absolute;
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50% 50%;
+}
+
+#stats{
+    border-radius: 3px 3px 0 0;
+    overflow: hidden;
+}
