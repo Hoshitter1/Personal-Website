@@ -33,14 +33,16 @@ a {
 }
 
 .jumbotron .overlay {
-    background-color: #e7e7de;
     position: absolute;
     top: 0;
     bottom: 0;
     left: 0;
     right: 0;
-    opacity: 0.4;
+    opacity: 0.2;
     z-index: 2;
+    background-color: #0f3057;
+    background-image: -webkit-gradient(linear, 0 0, 100% 100%,color-stop(.25, #F9F9F9), color-stop(.25, transparent),color-stop(.5, transparent), color-stop(.5, #F9F9F9),color-stop(.75, #F9F9F9), color-stop(.75, transparent),to(transparent));
+    -webkit-background-size: 7px 7px;
 }
 
 .jumbotron .container-fluid {
@@ -57,6 +59,17 @@ a {
 
 .jumbotron .container-fluid p {
     font-size: 2rem;
+}
+
+/*Particlejs*/
+canvas{
+    position: absolute;
+    top: 0;
+}
+
+#particles-js{
+    width: 100%;
+    height: 50vh;
 }
 
 /*Sections*/
@@ -286,23 +299,4 @@ a {
 
 .collapsed-extend {
     padding: 10% 0;
-}
-
-/*Particlejs*/
-canvas{
-    display: block; vertical-align: bottom;
-}
-
-#particles-js{
-    position:absolute;
-    width: 100%;
-    height: 100%;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: 50% 50%;
-}
-
-#stats{
-    border-radius: 3px 3px 0 0;
-    overflow: hidden;
 }
