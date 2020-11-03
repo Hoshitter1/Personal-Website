@@ -100,12 +100,12 @@
                </div>
                <div class="menu">
                   <ul>
-                     <li><a href="#">Home</a></li>
-                     <li><a href="#">About</a></li>
-                     <li><a href="#">Blog</a></li>
-                     <li><a href="#">Contact</a></li>
-                     <li><a href="#">Contact</a></li>
-                     <li><a href="#">Contact</a></li>
+                        <li><a href="#introduction">Profile</a></li>
+                        <li><a href="#skills">Skills</a></li>
+                        <li><a href="#experience">Experience</a></li>
+                        <li><a href="#endorsement">Endorsement</a></li>
+                        <li><a href="#portfolio">Portfolio</a></li>
+                        <li><a href="#contact-me">Contact</a></li>
                   </ul>
                </div>
             </nav>
@@ -122,20 +122,20 @@
 <!--                        <ul class="navbar-nav custom-nav">-->
 <!--                            <li class="nav-item">-->
 <!--                                <a class="nav-item nav-link" href="#introduction">Profile</a>-->
-<!--                            </li>-->
-<!--                            <li class="nav-item">-->
+<!--&lt;!&ndash;                            </li>&ndash;&gt;-->
+<!--&lt;!&ndash;                            <li class="nav-item">&ndash;&gt;-->
 <!--                                <a class="nav-item nav-link" href="#skills">Skills</a>-->
-<!--                            </li>-->
-<!--                            <li class="nav-item">-->
+<!--&lt;!&ndash;                            </li>&ndash;&gt;-->
+<!--&lt;!&ndash;                            <li class="nav-item">&ndash;&gt;-->
 <!--                                <a class="nav-item nav-link" href="#experience">Experience</a>-->
-<!--                            </li>-->
-<!--                            <li class="nav-item">-->
+<!--&lt;!&ndash;                            </li>&ndash;&gt;-->
+<!--&lt;!&ndash;                            <li class="nav-item">&ndash;&gt;-->
 <!--                                <a class="nav-item nav-link" href="#endorsement">Endorsement</a>-->
-<!--                            </li>-->
-<!--                            <li class="nav-item">-->
+<!--&lt;!&ndash;                            </li>&ndash;&gt;-->
+<!--&lt;!&ndash;                            <li class="nav-item">&ndash;&gt;-->
 <!--                                <a class="nav-item nav-link" href="#portfolio">Portfolio</a>-->
-<!--                            </li>-->
-<!--                            <li class="nav-item">-->
+<!--&lt;!&ndash;                            </li>&ndash;&gt;-->
+<!--&lt;!&ndash;                            <li class="nav-item">&ndash;&gt;-->
 <!--                                <a class="nav-item nav-link" href="#contact-me">Contact</a>-->
 <!--                            </li>-->
 <!--                        </ul>-->
@@ -1166,7 +1166,14 @@
             else {
                   $('nav').removeClass('black');
             }
-          })
+          });
+
+          $(document).ready(function() {
+            $('nav li a').on('click', function(){
+              $("nav ul").toggleClass("showing");
+            });
+          });
+
         </script>
     </body>
 </html>
