@@ -96,6 +96,19 @@ canvas {
     right: 0;
 }
 
+@media only screen and (max-width: 576px) and (orientation: portrait){
+    .bg-img {
+        background-attachment: scroll;
+    }
+    #particles-js {
+        background-attachment: fixed;
+    }
+    canvas {
+        background-attachment: fixed;
+    }
+
+}
+
 /*Sections*/
 .section-title {
     text-align: center;
