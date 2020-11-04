@@ -80,6 +80,17 @@ nav.white ul li a {
     .menu-icon {
         display: block;
     }
+
+    .heading-mobile {
+        position: absolute;
+        top: -10rem;
+        left: -1rem;
+    }
+
+    .bg-img {
+        filter: contrast(80%) grayscale(10%);
+    }
+
 }
 
 @media only screen and (max-width: 576px) and (orientation: portrait){
@@ -92,4 +103,8 @@ nav.white ul li a {
     #particles-js {
         background-attachment: scroll;
     }
+    canvas {
+        background-attachment: scroll;
+    }
+
 }

@@ -1,3 +1,9 @@
+html,
+body{
+width:100%;
+overflow-x:hidden;
+}
+
 h1, h2, h3, h4, h5, h6 {
     font-family: 'Merriweather', serif;
 }
@@ -8,15 +14,13 @@ a {
 
 /*Containers*/
 .container-fluid-extended {
-    max-width: 810px;
+    max-width: 100%;
     padding: 6% 10%;
 }
 
 .container-fluid-heading {
     max-width: 100%;
     text-align: center;
-    top: 40%;
-    left: 0;
 }
 
 .container-extended {
