@@ -48,6 +48,7 @@ nav.white ul li a {
     display: none;
 }
 
+
 @media(max-width: 576px) {
     nav ul {
         padding-left: 0;
