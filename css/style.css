@@ -78,22 +78,21 @@ a {
 
 /*Particle.js*/
 canvas {
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
+    /*position: absolute;*/
+    /*top: 0;*/
+    /*bottom: 0;*/
+    /*left: 0;*/
+    /*right: 0;*/
     display: block;
-    vertical-align: bottom;
     z-index: 2;
 }
 
 #particles-js {
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
+    /*position: absolute;*/
+    /*top: 0;*/
+    /*bottom: 0;*/
+    /*left: 0;*/
+    /*right: 0;*/
 }
 
 @media only screen and (max-width: 576px) and (orientation: portrait){
@@ -101,9 +100,11 @@ canvas {
         background-attachment: scroll;
     }
     #particles-js {
+        background-attachment: scroll;
         z-index: 999;
     }
     canvas {
+        background-attachment: scroll;
         z-index: 999;
     }
 
