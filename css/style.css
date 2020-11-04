@@ -101,10 +101,10 @@ canvas {
         background-attachment: scroll;
     }
     #particles-js {
-        background-attachment: fixed;
+        z-index: 999;
     }
     canvas {
-        background-attachment: fixed;
+        z-index: 999;
     }
 
 }
