@@ -89,4 +89,7 @@ nav.white ul li a {
     .bg-img {
         background-attachment: scroll;
     }
+    #particles-js {
+        background-attachment: scroll;
+    }
 }
