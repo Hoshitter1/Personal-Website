@@ -86,4 +86,7 @@ nav.white ul li a {
     .jumbotron {
         background-attachment: scroll;
     }
+    .bg-img {
+        background-attachment: scroll;
+    }
 }
