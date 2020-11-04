@@ -1,6 +1,7 @@
-@media only screen and (max-width: 576px) {
-    #top {
-        background-position: right center;
+@media only screen and (max-width: 576px) and (orientation: portrait){
+    .jumbotron {
+        /*background-position: right center;*/
+        background-attachment: scroll;
     }
 }
 
