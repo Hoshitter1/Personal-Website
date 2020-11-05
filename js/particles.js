@@ -4,20 +4,20 @@ particlesJS("particles-js",
             {
                 "number":
                     {
-                        "value": 20,
+                        "value": 30,
                         "density": {
                             "enable": true,
-                            "value_area": 400
+                            "value_area": 500
                         }
                     },
                 "color": {
-                    "value": "#394867"
+                    "value": "#000000"
                 },
                 "shape": {
                     "type": "star",
                     "stroke": {
                         "width": 0,
-                        "color": "#c0c0c0"
+                        "color": "#000000"
                     },
                     "polygon": {
                         "nb_sides": 200
@@ -29,7 +29,7 @@ particlesJS("particles-js",
                     }
                 },
                 "opacity": {
-                    "value": 0.5,
+                    "value": 0.3,
                     "random": false,
                     "anim": {
                         "enable": false,
@@ -39,7 +39,7 @@ particlesJS("particles-js",
                     }
                 },
                 "size": {
-                    "value": 3,
+                    "value": 2,
                     "random": true,
                     "anim": {
                         "enable": false,
@@ -51,8 +51,8 @@ particlesJS("particles-js",
                 "line_linked": {
                     "enable": true,
                     "distance": 200,
-                    "color": "#394867",
-                    "opacity": 1,
+                    "color": "#000000",
+                    "opacity": 0.5,
                     "width": 1
                 },
                 "move": {
@@ -76,7 +76,7 @@ particlesJS("particles-js",
                 "onresize": {
                 "enable": true,
                 "density_auto": true,
-                "density_area": 100 // nb_particles = particles.nb * (canvas width *  canvas height / 1000) / density_area
+                "density_area": 200 // nb_particles = particles.nb * (canvas width *  canvas height / 1000) / density_area
               },
                 "onhover": {
                     "enable": false,
@@ -98,4 +98,3 @@ particlesJS("particles-js",
         }, "retina_detect": true
     }
 );
-

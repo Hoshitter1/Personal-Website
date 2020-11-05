@@ -1,3 +1,7 @@
+a{
+    text-decoration: none!important;
+}
+
 nav {
     position: fixed;
     width: 100%;
@@ -31,8 +35,16 @@ nav ul li a {
     font-size: 16px;
 }
 
+nav ul li a:hover {
+    color: #f4f4f2;
+}
+
 nav.white ul li a {
     color: white;
+}
+
+nav.white ul li a:hover {
+    color: #2d6187;
 }
 
 .menu-icon {

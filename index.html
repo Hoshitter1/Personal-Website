@@ -17,6 +17,7 @@
         <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
         <!--Overwrite Bootstrao-->
         <link rel="stylesheet" href="css/bootstrap-overwrite.css">
+        <link href="https://fonts.googleapis.com/css2?family=Lekton:wght@700&display=swap" rel="stylesheet">
     </head>
 
     <body style="font-family: 'Montserrat', sans-serif;">
@@ -40,7 +41,8 @@
             <div class="jumbotron jumbotron-extend" style="margin-bottom: 0;">
                 <div class="container-fluid container-fluid-heading position-absolute">
                     <div class="heading-mobile">
-                      <h1>Hoshito Furuno</h1>
+                      <h1 class="line-1 anim-typewriter">Hoshito Furuno</h1>
+                        <hr style="width:50%; background-color: black; opacity: 0.5">
                       <p>Resume</p>
                     </div>
                 </div>
@@ -50,11 +52,10 @@
         </section>
 
         <section id="introduction">
-
             <h1 class="section-title">Profile</h1>
             <hr>
+            <div id="particles-js" style="width: 100%; height: 100%;"></div>
             <div class="container-fluid container-fluid-extended" style="max-width: 1000px">
-                <div id="particles-js" style="width: 90%; height: 90%;"></div>
                 <div class="row">
                     <div class="col-lg-4 profile-description">
                         <h2 class="profile-name">About me</h2>
@@ -552,7 +553,7 @@
                                 The analysis has been conducted on AWS,  namely Lambda, Sagemaker, S3, Glue and Comprehend.
                             </p>
                             <span class="career-footer">
-                                <span><i class="career-footer-icon fas fa-briefcase"></i>Fulltime</span>
+                                <span><i class="career-footer-icon fas fa-briefcase"></i>Contract</span>
                                 <span class="separator">|</span>
                                 <a href="https://www.nttdata.com/global/en/"><i class="career-footer-icon fas fa-link"></i>www.nttdata.com</a>
                             </span>
@@ -568,7 +569,7 @@
                                 Completed the project using Agile development.
                             </p>
                             <span class="career-footer">
-                                <span><i class="career-footer-icon fas fa-briefcase"></i>Fulltime</span>
+                                <span><i class="career-footer-icon fas fa-briefcase"></i>Contract</span>
                                 <span class="separator">|</span>
                                 <a href="https://anyflow.jp/#apps"><i class="career-footer-icon fas fa-link"></i>anyflow.jp</a>
                             </span>
@@ -598,7 +599,7 @@
                                 I created and developed the model using Pytorch.
                             </p>
                             <span class="career-footer">
-                                <span><i class="career-footer-icon fas fa-briefcase"></i>Part-time</span>
+                                <span><i class="career-footer-icon fas fa-briefcase"></i>Contract</span>
                                 <span class="separator">|</span>
                                 <span><i class="career-footer-icon fas fa-link"></i><a href="https://www.ai-ms.com/en">ai-ms.com</a></span>
                             </span>
@@ -614,7 +615,7 @@
                                 In addition, I contributed to GUI software that predicts and track sport players in a field.
                             </p>
                             <span class="career-footer">
-                                <span><i class="career-footer-icon fas fa-briefcase"></i>Fulltime</span>
+                                <span><i class="career-footer-icon fas fa-briefcase"></i>Contract</span>
                                 <span class="separator">|</span>
                                 <span><i class="career-footer-icon fas fa-link"></i><a href="https://www.globalwalkers.co.jp/en/">globalwalkers.com</a></span>
                             </span>
@@ -649,27 +650,27 @@
                       <a href="https://www.linkedin.com/in/mamoru-ishino-846064170/">
                           <img class="testimonial-image" src="images/mamoru_ishino.jpeg" alt="ishono-profile">
                       </a>
-                      <em>
-                          Mamoru, <a href="https://www.estie.co.jp/" class="endorsement-link">Estie</a>
-                      </em>
+                      <span class="endorsement-description">
+                          <span class="endorsement-name">Mamoru,</span>&nbsp;<a href="https://www.estie.co.jp/" class="endorsement-link">Estie</a>
+                      </span>
                     </div>
                     <div class="carousel-item container-fluid" style="padding: 7% 15%;">
                       <h2 class="testimonial-text">Hoshito’s perpetual commitment to finding a nuanced and creative approach to difficult problems makes his an invaluable asset to any team he works with.</h2>
                       <a href="https://www.linkedin.com/in/shinsuke-hamasho-a95749123/">
                         <img class="testimonial-image" src="images/shinsuke_hamasho.jpeg" alt="hamasho-profile">
                       </a>
-                      <em>
-                          shinsuke, <a href="https://www.ai-ms.com/" class="endorsement-link">AI medical</a>
-                      </em>
+                      <span class="endorsement-description">
+                          <span class="endorsement-name">Shinsuke,</span>&nbsp;<a href="https://www.ai-ms.com/" class="endorsement-link">AI medical</a>
+                      </span>
                     </div>
                     <div class="carousel-item container-fluid" style="padding: 7% 15%;">
                       <h2 class="testimonial-text">Probably one of the friendliest and most responsible members of my sales team. A pleasure to work with!</h2>
                       <a href="https://www.linkedin.com/in/ikumi-wajima-1ab3b7131/">
                         <img class="testimonial-image" src="images/ikumi-wajima.jpeg" alt="ikumi-profile">
                       </a>
-                      <em>
-                          Ikumi, <a href="https://www.cornestech.co.jp/en/" class="endorsement-link">Cornes Technologies</a>
-                      </em>
+                      <span class="endorsement-description">
+                          <span class="endorsement-name">Ikumi,</span>&nbsp;<a href="https://www.cornestech.co.jp/en/" class="endorsement-link">Cornes Technologies</a>
+                      </span>
                     </div>
                 </div>
                 <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
@@ -981,14 +982,14 @@
         <section id="contact-me">
             <h1 class="section-title">Contact-me</h1>
             <hr>
-            <div class="container-fluid container-fluid-extended" style="max-width: 1000px">
+            <div class="container-fluid container-fluid-extended" style="max-width: 800px">
                 <div class="row">
                     <div class="col-lg-6">
                         <ul class="no-bullets">
                             <li>
-                                <a href="https://www.linkedin.com/in/hoshito-furuno-202b6a16b/">
+                                <a href="https://www.linkedin.com/in/hoshito-furuno-202b6a16b/" target="_blank">
                                     <i class="contact-icon fab fa-linkedin"></i>
-                                    <span class="contact-link">https://www.linkedin.com/in/hoshitofuruno/</span>
+                                    <span class="contact-link">linkedin.com/hoshitofuruno/</span>
                                 </a>
                             </li>
                         </ul>
@@ -996,7 +997,7 @@
                     <div class="col-lg-6">
                         <ul class="no-bullets">
                             <li>
-                                <a href="mailto:hoshi.to.2018@gmail.com">
+                                <a href="mailto:hoshi.to.2018@gmail.com" target="_blank">
                                     <i class="contact-icon fas fa-envelope"></i>
                                     <span class="contact-link">hoshi.to.2018@gmail.com</span>
                                 </a>
