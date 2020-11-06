@@ -337,7 +337,7 @@ canvas {
 
 @media (max-width: 576px) {
     #contact-me .no-bullets {
-        padding-left: 10%;
+        padding-left: 15%;
     }
     .contact-icon {
         font-size: 1.2rem;
