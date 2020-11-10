@@ -301,8 +301,11 @@ canvas {
         font-size: 0.5rem;
         color: #0f3057;
     }
+    .endorsement-position {
+        font-size: 6px;
+    }
     .endorsement-link {
-        font-size: 0.5rem;
+        font-size: 6px;
     }
 }
 
